@@ -15,8 +15,16 @@ container.appendChild(h3);
 
 //third
 const div = document.createElement('div');
-div.style.cssText = 'background: black; border: 10px solid pink;';
+div.style.cssText = 'background: pink; border: 10px solid black;';
 div.setAttribute('id', 'newDiv');
 
 document.body.appendChild(div);
+
+//fourth
+const h1 = document.createElement('h3');
+h1.textContent = "I'm in a div"
+div.appendChild(h1)
+
+
+
 
