@@ -13,3 +13,10 @@ h3.textContent = "I'm a blue h3!";
 
 container.appendChild(h3);
 
+//third
+const div = document.createElement('div');
+div.style.cssText = 'background: black; border: 10px solid pink;';
+div.setAttribute('id', 'newDiv');
+
+document.body.appendChild(div);
+
